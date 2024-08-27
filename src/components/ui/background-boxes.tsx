@@ -7,15 +7,18 @@ export const BoxesCore = ({ className, ...rest }: { className?: string }) => {
   const rows = new Array(150).fill(1);
   const cols = new Array(100).fill(1);
   let colors = [
-    "--slate-900",
-    "--slate-800",
-    "--slate-700",
-    "--slate-600",
     "--slate-500",
-    "--gray-900",
-    "--gray-800",
-    "--gray-700",
-    "--gray-600",
+    "--slate-400",
+    "--slate-300",
+    "--gray-500",
+    "--gray-400",
+    "--gray-300",
+    "--zinc-500",
+    "--zinc-400",
+    "--zinc-300",
+    "--blue-400",
+    "--indigo-400",
+    "--purple-400",
   ];
   const getRandomColor = () => {
     return colors[Math.floor(Math.random() * colors.length)];
