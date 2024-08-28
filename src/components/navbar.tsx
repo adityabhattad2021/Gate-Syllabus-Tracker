@@ -16,13 +16,13 @@ export default function Navbar({ className }: NavbarProps) {
     const [active, setActive] = useState<string | null>(null);
     return (
         <div
-            className={cn("fixed top-4 inset-x-0 mx-auto w-[80%] z-50", className)}
+            className={cn("fixed top-4 inset-x-0 mx-auto w-[88%] z-50", className)}
         >
             <Menu setActive={setActive}>
                 <MenuItem setActive={setActive} active={active} item="Streams">
                     <div className="flex flex-col space-y-4 text-sm">
                         {availableStreams.map((stream) => (
-                            <HoveredLink href={`/streams/${stream.toLowerCase().replace(/ /g, "-")}`}>{stream}</HoveredLink>
+                            <HoveredLink key={stream} href={`/streams/${stream.toLowerCase().replace(/ /g, "-")}`}>{stream}</HoveredLink>
                         ))}
                     </div>
                 </MenuItem>

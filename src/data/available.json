@@ -1,0 +1,14 @@
+{
+    "streams": [
+        {
+            "name":"Computer Science and Information Technology",
+            "description":"Loosly based on the curriculum of the B.Tech in Computer Science and Information Technology",
+            "slug":"computer-science-and-information-technology"
+        },
+        {
+            "name":"Comming Soon",
+            "description":"We are working on it",
+            "slug":"#"
+        }
+    ]
+}

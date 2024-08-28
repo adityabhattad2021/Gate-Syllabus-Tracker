@@ -17,13 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div className="min-h-screen bg-slate-900 overflow-hidden">
+      <body className={`${inter.className} h-full`}>
+        <main className="min-h-screen flex flex-col h-full bg-black">
           <Navbar />
-          <main className="pt-24">
-            {children}
-          </main>
-        </div>
+          {children}
+        </main>
       </body>
     </html>
   );
