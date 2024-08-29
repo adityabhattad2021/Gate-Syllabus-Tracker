@@ -79,7 +79,7 @@ export const Card = ({
         className
       )}
     >
-      <BackgroundBeams className="z-0" />
+      <BackgroundBeams className="z-0" svgViewBox="0 0 696 316" />
       <div className="relative z-50">
         <div className="p-4">{children}</div>
       </div>

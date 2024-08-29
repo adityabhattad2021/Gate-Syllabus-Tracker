@@ -26,13 +26,13 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <footer className="relative z-20 w-full mt-auto bg-zinc-800 text-white py-8">
+      <footer className="relative z-20 w-full mt-auto bg-gray-900 text-white py-8">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between">
+          <div className="flex flex-col gap-8 md:flex-row justify-between">
             <div className="max-w-md">
               <h3 className="text-lg font-semibold mb-4">SyllabusGenius</h3>
               <p className="text-sm text-zinc-300">
-                SyllabusGenius aims to simplify exam preparation by providing an intuitive interface for
+                With syllabusGenius, I aims to simplify exam preparation by providing an intuitive interface for
                 managing study materials and monitoring progress for various exams starting from GATE.
               </p>
             </div>
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 border-t border-zinc-700 pt-8 text-center">
-            <p className="text-sm text-zinc-300">&copy; {new Date().getFullYear()} Gate Syllabus Tracker. All rights reserved.</p>
+            <p className="text-sm text-zinc-300">&copy; {new Date().getFullYear()} SyllabusGenius.</p>
           </div>
         </div>
       </footer>
