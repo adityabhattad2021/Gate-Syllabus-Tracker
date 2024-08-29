@@ -1,0 +1,386 @@
+{
+    "computer-science-and-information-technology":{
+        "name": "Computer Science and Information Technology",
+        "description": "Loosly based on the curriculum of the B.Tech in Computer Science and Information Technology.",
+        "subjects": [
+            {
+                "name": "Engineering Mathematics",
+                "description": "Covers various mathematical concepts essential for engineering.",
+                "chapters": [
+                    {
+                        "name": "Discrete Mathematics",
+                        "description": "Covers the fundamental concepts of discrete mathematics.",
+                        "topics": [
+                            "Propositional and first order logic",
+                            "Sets, relations, functions, partial orders and lattices",
+                            "Monoids, Groups",
+                            "Graphs: connectivity, matching, colouring",
+                            "Combinatorics: counting, recurrence relations, generating functions"
+                        ]
+                    },
+                    {
+                        "name": "Linear Algebra",
+                        "description": "Focuses on matrices, determinants, and linear systems.",
+                        "topics": [
+                            "Matrices",
+                            "Determinants",
+                            "System of linear equations",
+                            "Eigenvalues and eigenvectors",
+                            "LU decomposition"
+                        ]
+                    },
+                    {
+                        "name": "Calculus",
+                        "description": "Covers fundamental concepts of calculus.",
+                        "topics": [
+                            "Limits",
+                            "Continuity and differentiability",
+                            "Maxima and minima",
+                            "Mean value theorem",
+                            "Integration"
+                        ]
+                    },
+                    {
+                        "name": "Probability and Statistics",
+                        "description": "Introduces probability theory and statistical concepts.",
+                        "topics": [
+                            "Random variables",
+                            "Probability distributions: Uniform, normal, exponential, Poisson, and binomial",
+                            "Mean, median, mode, and standard deviation",
+                            "Conditional probability",
+                            "Bayes theorem"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Digital Logic",
+                "description": "Focuses on Boolean algebra, circuits, and computer arithmetic.",
+                "chapters": [
+                    {
+                        "name": "Boolean Algebra",
+                        "description": "Covers the fundamental concepts of Boolean algebra.",
+                        "topics": []
+                    },
+                    {
+                        "name": "Combinational and sequential circuits",
+                        "description": "Covers the fundamental concepts of combinational and sequential circuits.",
+                        "topics": []
+                    },
+                    {
+                        "name": "Minimization",
+                        "description": "Covers the fundamental concepts of minimization.",
+                        "topics": []
+                    },
+                    {
+                        "name": "Number representations and computer arithmetic",
+                        "description": "Covers the fundamental concepts of number representations and computer arithmetic.",
+                        "topics": []
+                    }
+                ]
+            },
+            {
+                "name": "Computer Organization and Architecture",
+                "description": "Covers the structure and function of computer systems.",
+                "chapters": [
+                    {
+                        "name": "Machine Instructions and Addressing Modes",
+                        "description": "Covers the fundamental concepts of machine instructions and addressing modes.",
+                        "topics": []
+                    },
+                    {
+                        "name": "Computer Components",
+                        "description": "Focuses on essential components of a computer system.",
+                        "topics": [
+                            "ALU (Arithmetic Logic Unit)",
+                            "Data-path",
+                            "Control unit"
+                        ]
+                    },
+                    {
+                        "name": "Instruction Pipelining",
+                        "description": "Covers the concept of instruction pipelining and related issues.",
+                        "topics": [
+                            "Instruction pipelining process",
+                            "Pipeline hazards"
+                        ]
+                    },
+                    {
+                        "name": "Memory Hierarchy",
+                        "description": "Explores different levels of computer memory.",
+                        "topics": [
+                            "Cache memory",
+                            "Main memory",
+                            "Secondary storage"
+                        ]
+                    },
+                    {
+                        "name": "I/O Interface",
+                        "description": "Covers input/output mechanisms in computer systems.",
+                        "topics": [
+                            "Interrupt mode",
+                            "DMA (Direct Memory Access) mode"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Programming and Data Structures",
+                "description": "Covers programming concepts and fundamental data structures.",
+                "chapters": [
+                    {
+                        "name": "Programming in C",
+                        "description": "Focuses on C programming language fundamentals.",
+                        "topics": ["Recursion"]
+                    },
+                    {
+                        "name": "Data Structures",
+                        "description": "Covers various data structures and their implementations.",
+                        "topics": [
+                            "Arrays",
+                            "Stacks",
+                            "Queues",
+                            "Linked lists",
+                            "Trees",
+                            "Binary search trees",
+                            "Binary heaps",
+                            "Graphs"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Algorithms",
+                "description": "Focuses on algorithm design, analysis, and common algorithmic problems.",
+                "chapters": [
+                    {
+                        "name": "Basic Algorithms",
+                        "description": "Covers fundamental algorithmic operations.",
+                        "topics": [
+                            "Searching",
+                            "Sorting",
+                            "Hashing"
+                        ]
+                    },
+                    {
+                        "name": "Algorithm Analysis",
+                        "description": "Focuses on analyzing algorithm efficiency.",
+                        "topics": ["Asymptotic worst case time and space complexity"]
+                    },
+                    {
+                        "name": "Algorithm Design Techniques",
+                        "description": "Covers various approaches to algorithm design.",
+                        "topics": [
+                            "Greedy algorithms",
+                            "Dynamic programming",
+                            "Divide-and-conquer"
+                        ]
+                    },
+                    {
+                        "name": "Graph Algorithms",
+                        "description": "Focuses on algorithms for graph problems.",
+                        "topics": [
+                            "Graph traversals",
+                            "Minimum spanning trees",
+                            "Shortest paths"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Theory of Computation",
+                "description": "Covers fundamental concepts in computational theory.",
+                "chapters": [
+                    {
+                        "name": "Finite Automata",
+                        "description": "Focuses on regular languages and finite automata.",
+                        "topics": [
+                            "Regular expressions",
+                            "Finite automata"
+                        ]
+                    },
+                    {
+                        "name": "Context-free Languages",
+                        "description": "Covers context-free grammars and related concepts.",
+                        "topics": [
+                            "Context-free grammars",
+                            "Push-down automata",
+                            "Pumping lemma for regular and context-free languages"
+                        ]
+                    },
+                    {
+                        "name": "Turing Machines",
+                        "description": "Introduces Turing machines and undecidability.",
+                        "topics": [
+                            "Turing machines",
+                            "Undecidability"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Compiler Design",
+                "description": "Covers the process of designing and implementing compilers.",
+                "chapters": [
+                    {
+                        "name": "Lexical and Syntactic Analysis",
+                        "description": "Focuses on the initial stages of compilation.",
+                        "topics": [
+                            "Lexical analysis",
+                            "Parsing",
+                            "Syntax-directed translation"
+                        ]
+                    },
+                    {
+                        "name": "Intermediate Code Generation",
+                        "description": "Covers the generation of intermediate code.",
+                        "topics": [
+                            "Runtime environments",
+                            "Intermediate code generation"
+                        ]
+                    },
+                    {
+                        "name": "Optimization",
+                        "description": "Focuses on code optimization techniques.",
+                        "topics": [
+                            "Local optimisation",
+                            "Data flow analyses: constant propagation, liveness analysis, common sub expression elimination"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Operating System",
+                "description": "Covers fundamental concepts and components of operating systems.",
+                "chapters": [
+                    {
+                        "name": "Process Management",
+                        "description": "Focuses on managing processes and threads.",
+                        "topics": [
+                            "System calls",
+                            "Processes",
+                            "Threads",
+                            "Inter-process communication",
+                            "Concurrency and synchronization",
+                            "Deadlock"
+                        ]
+                    },
+                    {
+                        "name": "Scheduling",
+                        "description": "Covers scheduling algorithms for CPU and I/O.",
+                        "topics": [
+                            "CPU scheduling",
+                            "I/O scheduling"
+                        ]
+                    },
+                    {
+                        "name": "Memory Management",
+                        "description": "Focuses on memory allocation and virtual memory.",
+                        "topics": [
+                            "Memory management",
+                            "Virtual memory"
+                        ]
+                    },
+                    {
+                        "name": "File Systems",
+                        "description": "Covers file system concepts and implementation.",
+                        "topics": ["File systems"]
+                    }
+                ]
+            },
+            {
+                "name": "Databases",
+                "description": "Covers database concepts, models, and management systems.",
+                "chapters": [
+                    {
+                        "name": "Data Models",
+                        "description": "Focuses on different data models used in databases.",
+                        "topics": [
+                            "ER-model",
+                            "Relational model: relational algebra, tuple calculus, SQL"
+                        ]
+                    },
+                    {
+                        "name": "Database Design",
+                        "description": "Covers database design principles and normalization.",
+                        "topics": [
+                            "Integrity constraints",
+                            "Normal forms"
+                        ]
+                    },
+                    {
+                        "name": "Data Organization and Indexing",
+                        "description": "Focuses on file organization and indexing techniques.",
+                        "topics": [
+                            "File organization",
+                            "Indexing (e.g., B and B+ trees)"
+                        ]
+                    },
+                    {
+                        "name": "Transaction Management",
+                        "description": "Covers transaction processing and concurrency control.",
+                        "topics": [
+                            "Transactions",
+                            "Concurrency control"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Computer Networks",
+                "description": "Covers network architectures, protocols, and technologies.",
+                "chapters": [
+                    {
+                        "name": "Network Architecture",
+                        "description": "Focuses on layered network models and switching concepts.",
+                        "topics": [
+                            "Concept of layering: OSI and TCP/IP Protocol Stacks",
+                            "Basics of packet, circuit and virtual circuit switching"
+                        ]
+                    },
+                    {
+                        "name": "Data Link Layer",
+                        "description": "Covers data link layer protocols and technologies.",
+                        "topics": [
+                            "Framing",
+                            "Error detection",
+                            "Medium Access Control",
+                            "Ethernet bridging"
+                        ]
+                    },
+                    {
+                        "name": "Network Layer",
+                        "description": "Focuses on routing and addressing in networks.",
+                        "topics": [
+                            "Routing protocols: shortest path, flooding, distance vector and link state routing",
+                            "Fragmentation and IP addressing, IPv4, CIDR notation",
+                            "Basics of IP support protocols (ARP, DHCP, ICMP)",
+                            "Network Address Translation (NAT)"
+                        ]
+                    },
+                    {
+                        "name": "Transport Layer",
+                        "description": "Covers transport layer protocols and concepts.",
+                        "topics": [
+                            "Flow control and congestion control",
+                            "UDP",
+                            "TCP",
+                            "Sockets"
+                        ]
+                    },
+                    {
+                        "name": "Application Layer",
+                        "description": "Focuses on application layer protocols.",
+                        "topics": [
+                            "DNS",
+                            "SMTP",
+                            "HTTP",
+                            "FTP",
+                            "Email"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

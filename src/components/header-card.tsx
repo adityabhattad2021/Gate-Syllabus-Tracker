@@ -5,14 +5,16 @@ interface HeaderCardProps {
     title: string;
     description: string;
     className?: string;
+    titleClassName?: string;
+    descriptionClassName?: string;
 }
 
-export default function HeaderCard({ title, description, className }: HeaderCardProps) {
+export default function HeaderCard({ title, description, className, titleClassName, descriptionClassName }: HeaderCardProps) {
     return (
         <div className={cn("relative isolate overflow-hidden mt-12 border border-border px-4 md:px-8 py-12 text-center rounded-3xl", className)}>
             <BackgroundBeams className="z-0 w-full" />
-            <h1 className="text-4xl md:text-6xl z-10 relative font-bold text-left text-background">{title}</h1>
-            <p className="text-l md:text-xl z-10 relative text-left mt-2 text-muted-foreground">
+            <h1 className={cn("text-4xl md:text-6xl z-10 relative font-bold text-left text-background",titleClassName)}>{title}</h1>
+            <p className={cn("text-l md:text-xl z-10 relative text-left mt-2 text-muted-foreground",descriptionClassName)}>
                 {description}
             </p>
             <svg

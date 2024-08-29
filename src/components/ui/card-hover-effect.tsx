@@ -3,64 +3,68 @@ import { cn } from "@/lib/utils";
 import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 import { useState } from "react";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { BackgroundBeams } from "@/components/ui/background-beans";
+
+export interface HoverEffectItem {
+  name: string;
+  description: string;
+  slug: string;
+  url: string;
+}
+
+interface HoverEffectProps {
+  items: HoverEffectItem[];
+  className?: string;
+}
 
 export const HoverEffect = ({
   items,
   className,
-}: {
-  items: {
-    name: string;
-    description: string;
-    slug: string;
-  }[];
-  className?: string;
-}) => {
+}: HoverEffectProps) => {
   let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
- 
+
   return (
-      <div
-        className={cn(
-          "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4",
-          className
-        )}
-      >
-        {items.map((item, idx) => (
-          <Link
-            href={item?.slug}
-            key={item?.slug}
-            className="relative group block p-2 h-full w-full "
-            onMouseEnter={() => setHoveredIndex(idx)}
-            onMouseLeave={() => setHoveredIndex(null)}
-          >
-            <AnimatePresence>
-              {hoveredIndex === idx && (
-                <motion.span
-                  className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block rounded-3xl"
-                  layoutId="hoverBackground"
-                  initial={{ opacity: 0 }}
-                  animate={{
-                    opacity: 1,
-                    transition: { duration: 0.15 },
-                  }}
-                  exit={{
-                    opacity: 0,
-                    transition: { duration: 0.15, delay: 0.2 },
-                  }}
-                />
-              )}
-            </AnimatePresence>
-            <Card className="bg-gradient-to-r from-zinc-900 to-gray-900">
-              <CardTitle>{item.name}</CardTitle>
-              <CardDescription>{item.description}</CardDescription>
-            </Card>
-          </Link>
-        ))}
-      </div>
+    <div
+      className={cn(
+        "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4",
+        className
+      )}
+    >
+      {items.map((item, idx) => (
+        <Link
+          href={item?.url}
+          key={item?.slug}
+          className="relative group block p-2 h-full w-full "
+          onMouseEnter={() => setHoveredIndex(idx)}
+          onMouseLeave={() => setHoveredIndex(null)}
+        >
+          <AnimatePresence>
+            {hoveredIndex === idx && (
+              <motion.span
+                className="absolute inset-0 h-full w-full bg-neutral-200 dark:bg-slate-800/[0.8] block rounded-3xl"
+                layoutId="hoverBackground"
+                initial={{ opacity: 0 }}
+                animate={{
+                  opacity: 1,
+                  transition: { duration: 0.15 },
+                }}
+                exit={{
+                  opacity: 0,
+                  transition: { duration: 0.15, delay: 0.2 },
+                }}
+              />
+            )}
+          </AnimatePresence>
+          <Card className="bg-gradient-to-r from-zinc-900 to-gray-900">
+            <CardTitle>{item.name}</CardTitle>
+            <CardDescription>{item.description}</CardDescription>
+          </Card>
+        </Link>
+      ))}
+    </div>
   );
 };
- 
+
 export const Card = ({
   className,
   children,
