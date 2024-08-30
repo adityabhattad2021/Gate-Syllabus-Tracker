@@ -4,6 +4,8 @@ import data from "@/data/syllabus/data.json";
 import { Subject, SyllabusData } from "@/types/syllabus";
 import { redirect } from "next/navigation";
 
+
+
 interface SubjectPageProps {
     params: {
         subjectSlug: string;
