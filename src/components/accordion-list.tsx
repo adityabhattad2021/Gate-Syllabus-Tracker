@@ -29,12 +29,12 @@ export default function AccordionList({
         const storedTopicData = JSON.parse(localStorage.getItem(`${isTopicChecked}-${subjectData.name}`) || 'false') || subjectData.chapters.map(chapter => chapter.topics.map(() => false))
         setIsChapterChecked(storedChapterData);
         setIsTopicChecked(storedTopicData);
-    },[subjectData,isChapterChecked,isTopicChecked])
+    },[])
 
     useEffect(() => {
         localStorage.setItem(`${isChapterChecked}-${subjectData.name}`, JSON.stringify(isChapterChecked));
         localStorage.setItem(`${isTopicChecked}-${subjectData.name}`, JSON.stringify(isTopicChecked));
-    }, [isChapterChecked, isTopicChecked,subjectData.name])
+    }, [isChapterChecked, isTopicChecked])
 
     const isAllTopicsChecked = (chapterIndex: number): boolean => {
         return isTopicChecked[chapterIndex].every(topic => topic);
