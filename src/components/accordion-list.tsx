@@ -25,16 +25,16 @@ export default function AccordionList({
     const [isTopicChecked, setIsTopicChecked] = useState<boolean[][]>(()=>subjectData.chapters.map(chapter => chapter.topics.map(() => false)));
 
     useEffect(()=>{
-        const storedChapterData = JSON.parse(localStorage.getItem('isChapterChecked') || 'false') || subjectData.chapters.map(() => false)
-        const storedTopicData = JSON.parse(localStorage.getItem('isTopicChecked') || 'false') || subjectData.chapters.map(chapter => chapter.topics.map(() => false))
+        const storedChapterData = JSON.parse(localStorage.getItem(`${isChapterChecked}-${subjectData.name}`) || 'false') || subjectData.chapters.map(() => false)
+        const storedTopicData = JSON.parse(localStorage.getItem(`${isTopicChecked}-${subjectData.name}`) || 'false') || subjectData.chapters.map(chapter => chapter.topics.map(() => false))
         setIsChapterChecked(storedChapterData);
         setIsTopicChecked(storedTopicData);
-    },[])
+    },[subjectData,isChapterChecked,isTopicChecked])
 
     useEffect(() => {
-        localStorage.setItem('isChapterChecked', JSON.stringify(isChapterChecked));
-        localStorage.setItem('isTopicChecked', JSON.stringify(isTopicChecked));
-    }, [isChapterChecked, isTopicChecked])
+        localStorage.setItem(`${isChapterChecked}-${subjectData.name}`, JSON.stringify(isChapterChecked));
+        localStorage.setItem(`${isTopicChecked}-${subjectData.name}`, JSON.stringify(isTopicChecked));
+    }, [isChapterChecked, isTopicChecked,subjectData.name])
 
     const isAllTopicsChecked = (chapterIndex: number): boolean => {
         return isTopicChecked[chapterIndex].every(topic => topic);
