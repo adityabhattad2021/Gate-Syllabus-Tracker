@@ -16,7 +16,7 @@ export default function Navbar({ className }: NavbarProps) {
     const [active, setActive] = useState<string | null>(null);
     return (
         <div
-            className={cn("fixed top-4 inset-x-0 mx-auto w-[88%] z-50 bg-gray-800", className)}
+            className={cn("fixed top-4 inset-x-0 mx-auto w-[88%] z-50", className)}
         >
             <Menu setActive={setActive} >
                 <MenuItem setActive={setActive} active={active} item="Branches" >
