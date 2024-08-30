@@ -31,7 +31,7 @@ export default function BranchPage({ params }: BranchPageProps) {
   return (
     <div className="flex-1 w-full flex flex-col items-center justify-center mt-24 gap-12 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
       <HeaderCard
-        className="mx-auto w-full bg-gradient-to-r from-zinc-900  to-gray-900"
+        className="mx-auto w-full bg-gradient-to-r from-zinc-800  to-gray-900"
       >
         <h1 className="text-3xl md:text-4xl z-10 relative font-bold text-left text-background">{branchData.name}</h1>
         <p className="text-l md:text-xl z-10 relative text-left mt-2 text-muted-foreground">

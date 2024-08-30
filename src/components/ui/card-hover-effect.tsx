@@ -55,7 +55,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card className="bg-gradient-to-r from-zinc-900 to-gray-900">
+          <Card className="bg-gradient-to-r from-zinc-800 to-gray-900">
             <CardTitle>{item.name}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>
