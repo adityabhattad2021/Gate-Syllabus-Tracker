@@ -58,7 +58,7 @@ export default function AccordionList({
 
         if (checked) {
             setShowConfetti(true);
-            setTimeout(() => setShowConfetti(false), 5000);
+            setTimeout(() => setShowConfetti(false), 1500);
         }
     };
 
@@ -70,7 +70,7 @@ export default function AccordionList({
         });
         if (isTopicChecked[chapterIndex].every(topic => topic)) {
             setShowConfetti(true);
-            setTimeout(() => setShowConfetti(false), 5000);
+            setTimeout(() => setShowConfetti(false), 1500);
         }
     };
 
