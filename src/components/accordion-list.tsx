@@ -10,7 +10,6 @@ import dynamic from "next/dynamic";
 
 const ReactConfetti = dynamic(() => import('react-confetti'), { ssr: false });
 
-
 interface AccordionListProps {
     subjectData: Subject;
 }
@@ -21,9 +20,9 @@ export default function AccordionList({
 
     const [showConfetti, setShowConfetti] = useState(false);
 
-    const [isChapterChecked, setIsChapterChecked] = useState<boolean[]>([]);
+    const [isChapterChecked, setIsChapterChecked] = useState<boolean[]>(()=> subjectData.chapters.map(() => false));
 
-    const [isTopicChecked, setIsTopicChecked] = useState<boolean[][]>([]);
+    const [isTopicChecked, setIsTopicChecked] = useState<boolean[][]>(()=>subjectData.chapters.map(chapter => chapter.topics.map(() => false)));
 
     useEffect(()=>{
         const storedChapterData = JSON.parse(localStorage.getItem('isChapterChecked') || 'false') || subjectData.chapters.map(() => false)
@@ -149,7 +148,7 @@ export default function AccordionList({
                                 </AccordionTrigger>
                             </div>
                         </div>
-                        {chapter.topics.length > 0 && (
+                        {chapter?.topics.length > 0 && (
                             <AccordionContent className="px-6 py-4 bg-gray-900 border-t border-zinc-700">
                                 <ul className="space-y-3">
                                     {chapter.topics.map((topic, topicIndex) => (
