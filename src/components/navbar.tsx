@@ -19,7 +19,7 @@ export default function Navbar({ className }: NavbarProps) {
                 <MenuItem setActive={setActive} active={active} item="Branches" >
                     <div className="flex flex-col space-y-4 text-sm bg-gray-800">
                         {data.branches.map((branch) => (
-                            <HoveredLink key={branch} href={`/branches/${branch.name.toLowerCase().replace(/ /g, "-")}`}>{branch}</HoveredLink>
+                            <HoveredLink key={branch.slug} href={`/branches/${branch.name.toLowerCase().replace(/ /g, "-")}`}>{branch.name}</HoveredLink>
                         ))}
                     </div>
                 </MenuItem>
