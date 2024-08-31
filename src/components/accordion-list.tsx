@@ -105,17 +105,19 @@ export default function AccordionList({
 
     return (
         <>
-        {showConfetti && (
-          <ReactConfetti
-            width={window.innerWidth}
-            height={window.innerHeight}
-            recycle={false}
-            numberOfPieces={600}
-          />
-        )}
-        <Accordion type="multiple" className="w-full space-y-4">
-          {memoizedChapters}
-        </Accordion>
-      </>
+            {showConfetti && (
+                <div className="fixed inset-0 pointer-events-none" style={{ zIndex: 1000 }}>
+                    <ReactConfetti
+                        width={window.innerWidth}
+                        height={window.innerHeight}
+                        recycle={false}
+                        numberOfPieces={600}
+                    />
+                </div>
+            )}
+            <Accordion type="multiple" className="w-full space-y-4">
+                {memoizedChapters}
+            </Accordion>
+        </>
     )
 }
