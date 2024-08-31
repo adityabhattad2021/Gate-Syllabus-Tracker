@@ -59,30 +59,6 @@ export const MenuItem = ({
   );
 };
 
-export const Menu = ({
-  setActive,
-  children,
-}: {
-  setActive: (item: string | null) => void;
-  children: React.ReactNode;
-}) => {
-  return (
-    <nav
-      onMouseLeave={() => setActive(null)}
-      className="relative rounded-full border border-slate-700 bg-gradient-to-r from-zinc-900 to-gray-900 shadow-input flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 px-4 md:px-8 py-4 md:py-6"
-    >
-      <Link href="/">
-        <h1 className="text-white text-xl md:text-2xl font-bold">
-          SyllabiGenius
-        </h1>
-      </Link>
-      <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
-        {children}
-      </div>
-    </nav>
-  );
-};
-
 
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (

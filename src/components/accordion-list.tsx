@@ -72,7 +72,7 @@ export default function AccordionList({
         })
         if (isTopicChecked[chapterIndex].every(topic => topic)) {
             setShowConfetti(true)
-            setTimeout(() => setShowConfetti(false), 2500)
+            setTimeout(() => setShowConfetti(false), 5000)
         }
     }, [isTopicChecked])
 
