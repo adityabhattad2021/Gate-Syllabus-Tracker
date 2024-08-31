@@ -4,7 +4,7 @@ export default function InnerLayout({
     children: React.ReactNode
 }) {
     return (
-        <div className="mt-32 md:mt-14">
+        <div className="mt-32 md:mt-20">
             {children}
         </div>
     )

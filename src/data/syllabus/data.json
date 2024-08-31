@@ -382,5 +382,1352 @@
                 ]
             }
         ]
-    }
+    },
+    "data-science-and-artificial-intelligence": {
+    "name": "Data Science and Artificial Intelligence",
+    "description": "Curriculum for the DA in Data Science and Artificial Intelligence.",
+    "subjects": [
+      {
+        "name": "Probability and Statistics",
+        "description": "Covers fundamental concepts in probability and statistics.",
+        "chapters": [
+          {
+            "name": "Probability Fundamentals",
+            "description": "Covers basic probability concepts and axioms.",
+            "topics": [
+              "Counting (permutation and combinations)",
+              "Probability axioms",
+              "Sample space, events, independent events, mutually exclusive events",
+              "Marginal, conditional and joint probability",
+              "Bayes Theorem"
+            ]
+          },
+          {
+            "name": "Descriptive Statistics",
+            "description": "Covers measures of central tendency and dispersion.",
+            "topics": [
+              "Conditional expectation and variance",
+              "Mean, median, mode and standard deviation",
+              "Correlation and covariance"
+            ]
+          },
+          {
+            "name": "Random Variables and Distributions",
+            "description": "Covers discrete and continuous random variables and their distributions.",
+            "topics": [
+              "Random variables",
+              "Discrete random variables and probability mass functions",
+              "Uniform, Bernoulli, binomial distribution",
+              "Continuous random variables and probability distribution function",
+              "Uniform, exponential, Poisson, normal, standard normal, t-distribution, chi-squared distributions",
+              "Cumulative distribution function",
+              "Conditional PDF"
+            ]
+          },
+          {
+            "name": "Statistical Inference",
+            "description": "Covers statistical inference and hypothesis testing.",
+            "topics": [
+              "Central limit theorem",
+              "Confidence interval",
+              "Z-test, t-test, chi-squared test"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Linear Algebra",
+        "description": "Covers essential concepts in linear algebra.",
+        "chapters": [
+          {
+            "name": "Vector Spaces and Matrices",
+            "description": "Covers fundamental concepts of vector spaces and matrices.",
+            "topics": [
+              "Vector space, subspaces",
+              "Linear dependence and independence of vectors",
+              "Matrices",
+              "Projection matrix, orthogonal matrix, idempotent matrix, partition matrix and their properties",
+              "Quadratic forms"
+            ]
+          },
+          {
+            "name": "Linear Systems and Decompositions",
+            "description": "Covers solving linear systems and matrix decompositions.",
+            "topics": [
+              "Systems of linear equations and solutions",
+              "Gaussian elimination",
+              "Eigenvalues and eigenvectors",
+              "Determinant, rank, nullity",
+              "Projections",
+              "LU decomposition",
+              "Singular value decomposition"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Calculus and Optimization",
+        "description": "Covers calculus concepts and optimization techniques.",
+        "chapters": [
+          {
+            "name": "Single Variable Calculus",
+            "description": "Covers calculus concepts for functions of a single variable.",
+            "topics": [
+              "Functions of a single variable",
+              "Limit, continuity and differentiability",
+              "Taylor series",
+              "Maxima and minima",
+              "Optimization involving a single variable"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Programming and Data Structures and Algorithms",
+        "description": "Covers programming fundamentals, data structures, and algorithms.",
+        "chapters": [
+          {
+            "name": "Programming Fundamentals",
+            "description": "Covers basic programming concepts in Python.",
+            "topics": [
+              "Programming in Python"
+            ]
+          },
+          {
+            "name": "Data Structures",
+            "description": "Covers fundamental data structures.",
+            "topics": [
+              "Basic data structures: stacks, queues, linked lists, trees, hash tables"
+            ]
+          },
+          {
+            "name": "Algorithms",
+            "description": "Covers basic search and sorting algorithms.",
+            "topics": [
+              "Search algorithms: linear search and binary search",
+              "Basic sorting algorithms: selection sort, bubble sort and insertion sort",
+              "Divide and conquer: mergesort, quicksort"
+            ]
+          },
+          {
+            "name": "Graph Theory",
+            "description": "Introduces graph theory and basic graph algorithms.",
+            "topics": [
+              "Introduction to graph theory",
+              "Basic graph algorithms: traversals and shortest path"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Database Management and Warehousing",
+        "description": "Covers database concepts, models, and data warehousing.",
+        "chapters": [
+          {
+            "name": "Database Models and Design",
+            "description": "Covers fundamental database models and design concepts.",
+            "topics": [
+              "ER-model",
+              "Relational model: relational algebra, tuple calculus, SQL",
+              "Integrity constraints, normal form"
+            ]
+          },
+          {
+            "name": "Data Organization and Transformation",
+            "description": "Covers data organization and transformation techniques.",
+            "topics": [
+              "File organization, indexing",
+              "Data types",
+              "Data transformation: normalization, discretization, sampling, compression"
+            ]
+          },
+          {
+            "name": "Data Warehousing",
+            "description": "Covers data warehouse modeling and measures.",
+            "topics": [
+              "Data warehouse modelling: schema for multidimensional data models, concept hierarchies",
+              "Measures: categorization and computations"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Machine Learning",
+        "description": "Covers supervised and unsupervised learning techniques.",
+        "chapters": [
+          {
+            "name": "Supervised Learning",
+            "description": "Focuses on regression and classification problems.",
+            "topics": [
+              "Simple linear regression",
+              "Multiple linear regression",
+              "Ridge regression",
+              "Logistic regression",
+              "K-nearest neighbour",
+              "Naive Bayes classifier",
+              "Linear discriminant analysis",
+              "Support vector machine",
+              "Decision trees",
+              "Bias-variance trade-off",
+              "Cross-validation methods: leave-one-out (LOO) cross-validation, k-folds cross-validation",
+              "Multi-layer perceptron, feed-forward neural network"
+            ]
+          },
+          {
+            "name": "Unsupervised Learning",
+            "description": "Focuses on clustering and dimensionality reduction.",
+            "topics": [
+              "Clustering algorithms",
+              "K-means/k-medoid",
+              "Hierarchical clustering, top-down, bottom-up: single-linkage, multiple-linkage",
+              "Dimensionality reduction",
+              "Principal component analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artificial Intelligence",
+        "description": "Covers fundamental AI concepts and techniques.",
+        "chapters": [
+          {
+            "name": "Search Algorithms",
+            "description": "Covers various search techniques in AI.",
+            "topics": [
+              "Informed search",
+              "Uninformed search",
+              "Adversarial search"
+            ]
+          },
+          {
+            "name": "Logic",
+            "description": "Covers logical reasoning in AI.",
+            "topics": [
+              "Propositional logic",
+              "Predicate logic"
+            ]
+          },
+          {
+            "name": "Reasoning under Uncertainty",
+            "description": "Covers techniques for reasoning with uncertain information.",
+            "topics": [
+              "Conditional independence representation",
+              "Exact inference through variable elimination",
+              "Approximate inference through sampling"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "mechanical-engineering": {
+    "name": "Mechanical Engineering",
+    "description": "Curriculum for ME Mechanical Engineering.",
+    "subjects": [
+      {
+        "name": "Engineering Mathematics",
+        "description": "Covers fundamental mathematical concepts for engineering.",
+        "chapters": [
+          {
+            "name": "Linear Algebra",
+            "description": "Covers matrix algebra and linear systems.",
+            "topics": [
+              "Matrix algebra",
+              "Systems of linear equations",
+              "Eigen values and eigen vectors"
+            ]
+          },
+          {
+            "name": "Calculus",
+            "description": "Covers differential and integral calculus.",
+            "topics": [
+              "Functions of single variable",
+              "Limit, continuity and differentiability",
+              "Mean value theorems",
+              "Indeterminate forms",
+              "Definite and improper integrals",
+              "Double and triple integrals",
+              "Partial derivatives",
+              "Total derivative",
+              "Taylor series (in one and two variables)",
+              "Maxima and minima",
+              "Fourier series",
+              "Gradient, divergence and curl",
+              "Vector identities",
+              "Directional derivatives",
+              "Line, surface and volume integrals",
+              "Applications of Gauss, Stokes and Green's theorems"
+            ]
+          },
+          {
+            "name": "Differential Equations",
+            "description": "Covers various types of differential equations and their solutions.",
+            "topics": [
+              "First order equations (linear and nonlinear)",
+              "Higher order linear differential equations with constant coefficients",
+              "Euler-Cauchy equation",
+              "Initial and boundary value problems",
+              "Laplace transforms",
+              "Solutions of heat, wave and Laplace's equations"
+            ]
+          },
+          {
+            "name": "Complex Variables",
+            "description": "Covers complex analysis concepts.",
+            "topics": [
+              "Analytic functions",
+              "Cauchy-Riemann equations",
+              "Cauchy's integral theorem and integral formula",
+              "Taylor and Laurent series"
+            ]
+          },
+          {
+            "name": "Probability and Statistics",
+            "description": "Covers basic concepts in probability and statistics.",
+            "topics": [
+              "Definitions of probability",
+              "Sampling theorems",
+              "Conditional probability",
+              "Mean, median, mode and standard deviation",
+              "Random variables",
+              "Binomial, Poisson and normal distributions"
+            ]
+          },
+          {
+            "name": "Numerical Methods",
+            "description": "Covers numerical techniques for solving mathematical problems.",
+            "topics": [
+              "Numerical solutions of linear and non-linear algebraic equations",
+              "Integration by trapezoidal and Simpson's rules",
+              "Single and multi-step methods for differential equations"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Applied Mechanics and Design",
+        "description": "Covers mechanics, materials, and machine design concepts.",
+        "chapters": [
+          {
+            "name": "Engineering Mechanics",
+            "description": "Covers statics and dynamics of rigid bodies.",
+            "topics": [
+              "Free-body diagrams and equilibrium",
+              "Friction and its applications",
+              "Trusses and frames",
+              "Virtual work",
+              "Kinematics and dynamics of rigid bodies in plane motion",
+              "Impulse and momentum (linear and angular) and energy formulations",
+              "Lagrange's equation"
+            ]
+          },
+          {
+            "name": "Mechanics of Materials",
+            "description": "Covers stress, strain, and material behavior.",
+            "topics": [
+              "Stress and strain, elastic constants, Poisson's ratio",
+              "Mohr's circle for plane stress and plane strain",
+              "Thin cylinders",
+              "Shear force and bending moment diagrams",
+              "Bending and shear stresses",
+              "Concept of shear centre",
+              "Deflection of beams",
+              "Torsion of circular shafts",
+              "Euler's theory of columns",
+              "Energy methods",
+              "Thermal stresses",
+              "Strain gauges and rosettes",
+              "Testing of materials with universal testing machine",
+              "Testing of hardness and impact strength"
+            ]
+          },
+          {
+            "name": "Theory of Machines",
+            "description": "Covers kinematics and dynamics of machines.",
+            "topics": [
+              "Displacement, velocity and acceleration analysis of plane mechanisms",
+              "Dynamic analysis of linkages",
+              "Cams",
+              "Gears and gear trains",
+              "Flywheels and governors",
+              "Balancing of reciprocating and rotating masses",
+              "Gyroscope"
+            ]
+          },
+          {
+            "name": "Vibrations",
+            "description": "Covers mechanical vibrations and related concepts.",
+            "topics": [
+              "Free and forced vibration of single degree of freedom systems",
+              "Effect of damping",
+              "Vibration isolation",
+              "Resonance",
+              "Critical speeds of shafts"
+            ]
+          },
+          {
+            "name": "Machine Design",
+            "description": "Covers principles of machine element design.",
+            "topics": [
+              "Design for static and dynamic loading",
+              "Failure theories",
+              "Fatigue strength and the S-N diagram",
+              "Principles of the design of machine elements",
+              "Bolted, riveted and welded joints",
+              "Shafts, gears, rolling and sliding contact bearings",
+              "Brakes and clutches",
+              "Springs"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fluid Mechanics and Thermal Sciences",
+        "description": "Covers fluid mechanics, heat transfer, and thermodynamics.",
+        "chapters": [
+          {
+            "name": "Fluid Mechanics",
+            "description": "Covers fluid properties and behavior.",
+            "topics": [
+              "Fluid properties",
+              "Fluid statics, forces on submerged bodies, stability of floating bodies",
+              "Control-volume analysis of mass, momentum and energy",
+              "Fluid acceleration",
+              "Differential equations of continuity and momentum",
+              "Bernoulli's equation",
+              "Dimensional analysis",
+              "Viscous flow of incompressible fluids",
+              "Boundary layer",
+              "Elementary turbulent flow",
+              "Flow through pipes, head losses in pipes, bends and fittings",
+              "Basics of compressible fluid flow"
+            ]
+          },
+          {
+            "name": "Heat Transfer",
+            "description": "Covers various modes of heat transfer.",
+            "topics": [
+              "Modes of heat transfer",
+              "One dimensional heat conduction",
+              "Resistance concept and electrical analogy",
+              "Heat transfer through fins",
+              "Unsteady heat conduction, lumped parameter system, Heisler's charts",
+              "Thermal boundary layer",
+              "Dimensionless parameters in free and forced convective heat transfer",
+              "Heat transfer correlations for flow over flat plates and through pipes",
+              "Effect of turbulence",
+              "Heat exchanger performance, LMTD and NTU methods",
+              "Radiative heat transfer",
+              "Stefan-Boltzmann law, Wien's displacement law",
+              "Black and grey surfaces, view factors, radiation network analysis"
+            ]
+          },
+          {
+            "name": "Thermodynamics",
+            "description": "Covers thermodynamic principles and laws.",
+            "topics": [
+              "Thermodynamic systems and processes",
+              "Properties of pure substances",
+              "Behavior of ideal and real gases",
+              "Zeroth and first laws of thermodynamics",
+              "Calculation of work and heat in various processes",
+              "Second law of thermodynamics",
+              "Thermodynamic property charts and tables",
+              "Availability and irreversibility",
+              "Thermodynamic relations"
+            ]
+          },
+          {
+            "name": "Applications",
+            "description": "Covers applications of fluid mechanics and thermal sciences.",
+            "topics": [
+              "Power Engineering: Air and gas compressors, vapour and gas power cycles, concepts of regeneration and reheat",
+              "I.C. Engines: Air-standard Otto, Diesel and dual cycles",
+              "Refrigeration and air-conditioning: Vapour and gas refrigeration and heat pump cycles, properties of moist air, psychrometric chart, basic psychrometric processes",
+              "Turbomachinery: Impulse and reaction principles, velocity diagrams, Pelton-wheel, Francis and Kaplan turbines, steam and gas turbines"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Materials and Manufacturing and Industrial Engineering",
+        "description": "Covers materials science, manufacturing processes, and industrial engineering concepts.",
+        "chapters": [
+          {
+            "name": "Engineering Materials",
+            "description": "Covers properties and behavior of engineering materials.",
+            "topics": [
+              "Structure and properties of engineering materials",
+              "Phase diagrams",
+              "Heat treatment",
+              "Stress-strain diagrams for engineering materials"
+            ]
+          },
+          {
+            "name": "Casting, Forming and Joining Processes",
+            "description": "Covers various manufacturing processes.",
+            "topics": [
+              "Different types of castings",
+              "Design of patterns, moulds and cores",
+              "Solidification and cooling",
+              "Riser and gating design",
+              "Plastic deformation and yield criteria",
+              "Fundamentals of hot and cold working processes",
+              "Load estimation for bulk and sheet metal forming processes",
+              "Principles of powder metallurgy",
+              "Principles of welding, brazing, soldering and adhesive bonding"
+            ]
+          },
+          {
+            "name": "Machining and Machine Tool Operations",
+            "description": "Covers machining processes and machine tools.",
+            "topics": [
+              "Mechanics of machining",
+              "Basic machine tools",
+              "Single and multi-point cutting tools, tool geometry and materials",
+              "Tool life and wear",
+              "Economics of machining",
+              "Principles of non-traditional machining processes",
+              "Principles of work holding, jigs and fixtures",
+              "Abrasive machining processes",
+              "NC/CNC machines and CNC programming"
+            ]
+          },
+          {
+            "name": "Metrology and Inspection",
+            "description": "Covers measurement and inspection techniques.",
+            "topics": [
+              "Limits, fits and tolerances",
+              "Linear and angular measurements",
+              "Comparators",
+              "Interferometry",
+              "Form and finish measurement",
+              "Alignment and testing methods",
+              "Tolerance analysis in manufacturing and assembly",
+              "Concepts of coordinate-measuring machine (CMM)"
+            ]
+          },
+          {
+            "name": "Computer Integrated Manufacturing",
+            "description": "Covers integration of computer systems in manufacturing.",
+            "topics": [
+              "Basic concepts of CAD/CAM and their integration tools",
+              "Additive manufacturing"
+            ]
+          },
+          {
+            "name": "Production Planning and Control",
+            "description": "Covers production management concepts.",
+            "topics": [
+              "Forecasting models",
+              "Aggregate production planning",
+              "Scheduling",
+              "Materials requirement planning",
+              "Lean manufacturing"
+            ]
+          },
+          {
+            "name": "Inventory Control",
+            "description": "Covers inventory management concepts.",
+            "topics": [
+              "Deterministic models",
+              "Safety stock inventory control systems"
+            ]
+          },
+          {
+            "name": "Operations Research",
+            "description": "Covers optimization and decision-making techniques.",
+            "topics": [
+              "Linear programming",
+              "Simplex method",
+              "Transportation, assignment, network flow models",
+              "Simple queuing models",
+              "PERT and CPM"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "electronics-and-communication-engineering": {
+    "name": "Electronics and Communication Engineering",
+    "description": "Curriculum for EC Electronics and Communication Engineering.",
+    "subjects": [
+      {
+        "name": "Engineering Mathematics",
+        "description": "Covers fundamental mathematical concepts for engineering.",
+        "chapters": [
+          {
+            "name": "Linear Algebra",
+            "description": "Covers vector spaces and matrix algebra.",
+            "topics": [
+              "Vector space, basis, linear dependence and independence",
+              "Matrix algebra",
+              "Eigen values and eigen vectors",
+              "Rank",
+              "Solution of linear equations - existence and uniqueness"
+            ]
+          },
+          {
+            "name": "Calculus",
+            "description": "Covers differential and integral calculus.",
+            "topics": [
+              "Mean value theorems",
+              "Theorems of integral calculus",
+              "Evaluation of definite and improper integrals",
+              "Partial derivatives",
+              "Maxima and minima",
+              "Multiple integrals",
+              "Line, surface and volume integrals",
+              "Taylor series"
+            ]
+          },
+          {
+            "name": "Differential Equations",
+            "description": "Covers various types of differential equations and their solutions.",
+            "topics": [
+              "First order equations (linear and nonlinear)",
+              "Higher order linear differential equations",
+              "Cauchy's and Euler's equations",
+              "Methods of solution using variation of parameters",
+              "Complementary function and particular integral",
+              "Partial differential equations",
+              "Variable separable method",
+              "Initial and boundary value problems"
+            ]
+          },
+          {
+            "name": "Vector Analysis",
+            "description": "Covers vector operations and theorems.",
+            "topics": [
+              "Vectors in plane and space",
+              "Vector operations",
+              "Gradient, divergence and curl",
+              "Gauss's, Green's and Stokes' theorems"
+            ]
+          },
+          {
+            "name": "Complex Analysis",
+            "description": "Covers complex functions and series.",
+            "topics": [
+              "Analytic functions",
+              "Cauchy's integral theorem",
+              "Cauchy's integral formula",
+              "Sequences, series, convergence tests",
+              "Taylor and Laurent series",
+              "Residue theorem"
+            ]
+          },
+          {
+            "name": "Probability and Statistics",
+            "description": "Covers basic concepts in probability and statistics.",
+            "topics": [
+              "Mean, median, mode, standard deviation",
+              "Combinatorial probability",
+              "Probability distributions",
+              "Binomial distribution",
+              "Poisson distribution",
+              "Exponential distribution",
+              "Normal distribution",
+              "Joint and conditional probability"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Networks Signals and Systems",
+        "description": "Covers network analysis, signals, and systems.",
+        "chapters": [
+          {
+            "name": "Circuit Analysis",
+            "description": "Covers methods of circuit analysis.",
+            "topics": [
+              "Node and mesh analysis",
+              "Superposition",
+              "Thevenin's theorem",
+              "Norton's theorem",
+              "Reciprocity",
+              "Sinusoidal steady state analysis: phasors, complex power, maximum power transfer",
+              "Time and frequency domain analysis of linear circuits: RL, RC and RLC circuits",
+              "Solution of network equations using Laplace transform",
+              "Linear 2-port network parameters",
+              "Wye-delta transformation"
+            ]
+          },
+          {
+            "name": "Continuous-time Signals",
+            "description": "Covers analysis of continuous-time signals.",
+            "topics": [
+              "Fourier series and Fourier transform",
+              "Sampling theorem and applications"
+            ]
+          },
+          {
+            "name": "Discrete-time Signals",
+            "description": "Covers analysis of discrete-time signals and systems.",
+            "topics": [
+              "DTFT, DFT, z-transform",
+              "Discrete-time processing of continuous-time signals",
+              "LTI systems: definition and properties, causality, stability, impulse response, convolution, poles and zeroes, frequency response, group delay, phase delay"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electronic Devices",
+        "description": "Covers semiconductor physics and devices.",
+        "chapters": [
+          {
+            "name": "Semiconductor Physics",
+            "description": "Covers basic semiconductor concepts.",
+            "topics": [
+              "Energy bands in intrinsic and extrinsic semiconductors",
+              "Equilibrium carrier concentration",
+              "Direct and indirect band-gap semiconductors"
+            ]
+          },
+          {
+            "name": "Carrier Transport",
+            "description": "Covers carrier movement in semiconductors.",
+            "topics": [
+              "Diffusion current",
+              "Drift current",
+              "Mobility and resistivity",
+              "Generation and recombination of carriers",
+              "Poisson and continuity equations"
+            ]
+          },
+          {
+            "name": "Semiconductor Devices",
+            "description": "Covers various semiconductor devices.",
+            "topics": [
+              "P-N junction",
+              "Zener diode",
+              "BJT",
+              "MOS capacitor",
+              "MOSFET",
+              "LED",
+              "Photo diode",
+              "Solar cell"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Analog Circuits",
+        "description": "Covers analog circuit design and analysis.",
+        "chapters": [
+          {
+            "name": "Diode Circuits",
+            "description": "Covers applications of diodes.",
+            "topics": [
+              "Clipping",
+              "Clamping",
+              "Rectifiers"
+            ]
+          },
+          {
+            "name": "BJT and MOSFET Amplifiers",
+            "description": "Covers transistor-based amplifiers.",
+            "topics": [
+              "Biasing",
+              "AC coupling",
+              "Small signal analysis",
+              "Frequency response",
+              "Current mirrors and differential amplifiers"
+            ]
+          },
+          {
+            "name": "Op-amp Circuits",
+            "description": "Covers operational amplifier circuits.",
+            "topics": [
+              "Amplifiers",
+              "Summers",
+              "Differentiators",
+              "Integrators",
+              "Active filters",
+              "Schmitt triggers",
+              "Oscillators"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Digital Circuits",
+        "description": "Covers digital circuit design and analysis.",
+        "chapters": [
+          {
+            "name": "Number Representations",
+            "description": "Covers different number systems.",
+            "topics": [
+              "Binary, integer and floating-point numbers"
+            ]
+          },
+          {
+            "name": "Combinatorial Circuits",
+            "description": "Covers design of combinational logic circuits.",
+            "topics": [
+              "Boolean algebra",
+              "Minimization of functions using Boolean identities and Karnaugh map",
+              "Logic gates and their static CMOS implementations",
+              "Arithmetic circuits",
+              "Code converters",
+              "Multiplexers",
+              "Decoders"
+            ]
+          },
+          {
+            "name": "Sequential Circuits",
+            "description": "Covers design of sequential logic circuits.",
+            "topics": [
+              "Latches and flip-flops",
+              "Counters",
+              "Shift-registers",
+              "Finite state machines",
+              "Propagation delay, setup and hold time, critical path delay"
+            ]
+          },
+          {
+            "name": "Data Converters",
+            "description": "Covers analog-to-digital and digital-to-analog conversion.",
+            "topics": [
+              "Sample and hold circuits",
+              "ADCs and DACs"
+            ]
+          },
+          {
+            "name": "Semiconductor Memories",
+            "description": "Covers different types of semiconductor memories.",
+            "topics": [
+              "ROM",
+              "SRAM",
+              "DRAM"
+            ]
+          },
+          {
+            "name": "Computer Organization",
+            "description": "Covers basic computer architecture concepts.",
+            "topics": [
+              "Machine instructions and addressing modes",
+              "ALU, data-path and control unit",
+              "Instruction pipelining"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Control Systems",
+        "description": "Covers control system analysis and design.",
+        "chapters": [
+          {
+            "name": "Control System Fundamentals",
+            "description": "Covers basic concepts and analysis of control systems.",
+            "topics": [
+              "Basic control system components",
+              "Feedback principle",
+              "Transfer function",
+              "Block diagram representation",
+              "Signal flow graph",
+              "Transient and steady-state analysis of LTI systems",
+              "Frequency response",
+              "Routh-Hurwitz and Nyquist stability criteria",
+              "Bode and root-locus plots",
+              "Lag, lead and lag-lead compensation",
+              "State variable model and solution of state equation of LTI systems"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Communications",
+        "description": "Covers various aspects of communication systems.",
+        "chapters": [
+          {
+            "name": "Random Processes",
+            "description": "Covers analysis of random signals.",
+            "topics": [
+              "Auto correlation and power spectral density",
+              "Properties of white noise",
+              "Filtering of random signals through LTI systems"
+            ]
+          },
+          {
+            "name": "Analog Communications",
+            "description": "Covers analog modulation techniques.",
+            "topics": [
+              "Amplitude modulation and demodulation",
+              "Angle modulation and demodulation",
+              "Spectra of AM and FM",
+              "Super heterodyne receivers"
+            ]
+          },
+          {
+            "name": "Information Theory",
+            "description": "Covers fundamental concepts of information theory.",
+            "topics": [
+              "Entropy",
+              "Mutual information",
+              "Channel capacity theorem"
+            ]
+          },
+          {
+            "name": "Digital Communications",
+            "description": "Covers digital communication systems and techniques.",
+            "topics": [
+              "PCM, DPCM",
+              "Digital modulation schemes (ASK, PSK, FSK, QAM)",
+              "Bandwidth, inter-symbol interference",
+              "MAP, ML detection",
+              "Matched filter receiver",
+              "SNR and BER",
+              "Fundamentals of error correction, Hamming codes, CRC"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electromagnetics",
+        "description": "Covers electromagnetic theory and applications.",
+        "chapters": [
+          {
+            "name": "Maxwell's Equations",
+            "description": "Covers fundamental electromagnetic equations.",
+            "topics": [
+              "Differential and integral forms and their interpretation",
+              "Boundary conditions",
+              "Wave equation",
+              "Poynting vector"
+            ]
+          },
+          {
+            "name": "Plane Waves and Properties",
+            "description": "Covers properties of electromagnetic waves.",
+            "topics": [
+              "Reflection and refraction",
+              "Polarization",
+              "Phase and group velocity",
+              "Propagation through various media",
+              "Skin depth"
+            ]
+          },
+          {
+            "name": "Transmission Lines",
+            "description": "Covers transmission line theory and applications.",
+            "topics": [
+              "Equations",
+              "Characteristic impedance",
+              "Impedance matching",
+              "Impedance transformation",
+              "S-parameters",
+              "Smith chart"
+            ]
+          },
+          {
+            "name": "Waveguides and Antennas",
+            "description": "Covers waveguides and antenna theory.",
+            "topics": [
+              "Rectangular and circular waveguides",
+              "Light propagation in optical fibers",
+              "Dipole and monopole antennas",
+              "Linear antenna arrays"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "electrical-engineering": {
+    "name": "Electrical Engineering",
+    "description": "Curriculum for EE Electrical Engineering.",
+    "subjects": [
+      {
+        "name": "Engineering Mathematics",
+        "description": "Covers fundamental mathematical concepts for electrical engineering.",
+        "chapters": [
+          {
+            "name": "Linear Algebra",
+            "description": "Covers matrix algebra and linear systems.",
+            "topics": [
+              "Matrix Algebra",
+              "Systems of linear equations",
+              "Eigen values",
+              "Eigen vectors"
+            ]
+          },
+          {
+            "name": "Calculus",
+            "description": "Covers differential and integral calculus.",
+            "topics": [
+              "Mean value theorems",
+              "Theorems of integral calculus",
+              "Evaluation of definite and improper integrals",
+              "Partial Derivatives",
+              "Maxima and minima",
+              "Multiple integrals",
+              "Fourier series",
+              "Vector identities",
+              "Directional derivatives",
+              "Line integral",
+              "Surface integral",
+              "Volume integral",
+              "Stokes's theorem",
+              "Gauss's theorem",
+              "Divergence theorem",
+              "Green's theorem"
+            ]
+          },
+          {
+            "name": "Differential Equations",
+            "description": "Covers various types of differential equations and their solutions.",
+            "topics": [
+              "First order equations (linear and nonlinear)",
+              "Higher order linear differential equations with constant coefficients",
+              "Method of variation of parameters",
+              "Cauchy's equation",
+              "Euler's equation",
+              "Initial and boundary value problems",
+              "Partial Differential Equations",
+              "Method of separation of variables"
+            ]
+          },
+          {
+            "name": "Complex Variables",
+            "description": "Covers complex analysis concepts.",
+            "topics": [
+              "Analytic functions",
+              "Cauchy's integral theorem",
+              "Cauchy's integral formula",
+              "Taylor series",
+              "Laurent series",
+              "Residue theorem",
+              "Solution integrals"
+            ]
+          },
+          {
+            "name": "Probability and Statistics",
+            "description": "Covers basic concepts in probability and statistics.",
+            "topics": [
+              "Sampling theorems",
+              "Conditional probability",
+              "Mean, Median, Mode",
+              "Standard Deviation",
+              "Random variables",
+              "Discrete and Continuous distributions",
+              "Poisson distribution",
+              "Normal distribution",
+              "Binomial distribution",
+              "Correlation analysis",
+              "Regression analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electric Circuits",
+        "description": "Covers analysis and design of electric circuits.",
+        "chapters": [
+          {
+            "name": "Network Elements",
+            "description": "Covers basic circuit elements and their characteristics.",
+            "topics": [
+              "Ideal voltage and current sources",
+              "Dependent sources",
+              "R, L, C, M elements"
+            ]
+          },
+          {
+            "name": "Network Analysis",
+            "description": "Covers methods for analyzing electric circuits.",
+            "topics": [
+              "Network solution methods: KCL, KVL, Node and Mesh analysis",
+              "Network Theorems: Thevenin's, Norton's, Superposition and Maximum Power Transfer theorem",
+              "Transient response of DC and AC networks",
+              "Sinusoidal steady-state analysis",
+              "Resonance",
+              "Two port networks",
+              "Balanced three phase circuits",
+              "Star-delta transformation",
+              "Complex power and power factor in AC circuits"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electromagnetic Fields",
+        "description": "Covers electromagnetic theory and applications.",
+        "chapters": [
+          {
+            "name": "Electrostatics",
+            "description": "Covers static electric fields and their properties.",
+            "topics": [
+              "Coulomb's Law",
+              "Electric Field Intensity",
+              "Electric Flux Density",
+              "Gauss's Law",
+              "Divergence",
+              "Electric field and potential due to point, line, plane and spherical charge distributions",
+              "Effect of dielectric medium",
+              "Capacitance of simple configurations"
+            ]
+          },
+          {
+            "name": "Magnetostatics",
+            "description": "Covers static magnetic fields and their properties.",
+            "topics": [
+              "Biot‐Savart's law",
+              "Ampere's law",
+              "Curl",
+              "Faraday's law",
+              "Lorentz force",
+              "Inductance",
+              "Magnetomotive force",
+              "Reluctance",
+              "Magnetic circuits",
+              "Self and Mutual inductance of simple configurations"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Signals and Systems",
+        "description": "Covers analysis of signals and systems.",
+        "chapters": [
+          {
+            "name": "Signal Representation",
+            "description": "Covers representation and properties of signals.",
+            "topics": [
+              "Representation of continuous and discrete time signals",
+              "Shifting and scaling properties",
+              "Linear time invariant and causal systems",
+              "Fourier series representation of continuous and discrete time periodic signals",
+              "Sampling theorem"
+            ]
+          },
+          {
+            "name": "Signal Transformation",
+            "description": "Covers various signal transformation techniques.",
+            "topics": [
+              "Applications of Fourier Transform for continuous and discrete time signals",
+              "Laplace Transform",
+              "Z transform"
+            ]
+          },
+          {
+            "name": "Signal Analysis",
+            "description": "Covers methods for analyzing signals.",
+            "topics": [
+              "R.M.S. value calculation for any general periodic waveform",
+              "Average value calculation for any general periodic waveform"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electrical Machines",
+        "description": "Covers various types of electrical machines and their characteristics.",
+        "chapters": [
+          {
+            "name": "Transformers",
+            "description": "Covers principles and types of transformers.",
+            "topics": [
+              "Single phase transformer: equivalent circuit, phasor diagram, open circuit and short circuit tests, regulation and efficiency",
+              "Three-phase transformers: connections, vector groups, parallel operation",
+              "Auto-transformer"
+            ]
+          },
+          {
+            "name": "DC Machines",
+            "description": "Covers DC motors and generators.",
+            "topics": [
+              "DC machines: separately excited, series and shunt, motoring and generating mode of operation and their characteristics",
+              "Speed control of dc motors"
+            ]
+          },
+          {
+            "name": "AC Machines",
+            "description": "Covers induction and synchronous machines.",
+            "topics": [
+              "Three-phase induction machines: principle of operation, types, performance, torque-speed characteristics, no-load and blocked-rotor tests, equivalent circuit, starting and speed control",
+              "Operating principle of single-phase induction motors",
+              "Synchronous machines: cylindrical and salient pole machines, performance and characteristics, regulation and parallel operation of generators, starting of synchronous motors"
+            ]
+          },
+          {
+            "name": "Machine Efficiency",
+            "description": "Covers efficiency calculations for electrical machines.",
+            "topics": [
+              "Types of losses in electric machines",
+              "Efficiency calculations of electric machines"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Power Systems",
+        "description": "Covers power system analysis, operation, and control.",
+        "chapters": [
+          {
+            "name": "Power Generation and Transmission",
+            "description": "Covers basic concepts of power generation and transmission.",
+            "topics": [
+              "Basic concepts of electrical power generation",
+              "AC and DC transmission concepts",
+              "Models and performance of transmission lines and cables",
+              "Economic Load Dispatch (with and without considering transmission losses)",
+              "Series and shunt compensation"
+            ]
+          },
+          {
+            "name": "Power System Analysis",
+            "description": "Covers methods for analyzing power systems.",
+            "topics": [
+              "Per‐unit quantities",
+              "Bus admittance matrix",
+              "Gauss- Seidel and Newton-Raphson load flow methods",
+              "Voltage and Frequency control",
+              "Power factor correction",
+              "Symmetrical components",
+              "Symmetrical and unsymmetrical fault analysis",
+              "System stability concepts",
+              "Equal area criterion"
+            ]
+          },
+          {
+            "name": "Power System Protection",
+            "description": "Covers protection systems for power systems.",
+            "topics": [
+              "Principles of over‐current, differential, directional and distance protection",
+              "Circuit breakers",
+              "Electric field distribution and insulators",
+              "Distribution systems"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Control Systems",
+        "description": "Covers analysis and design of control systems.",
+        "chapters": [
+          {
+            "name": "System Modeling",
+            "description": "Covers methods for modeling control systems.",
+            "topics": [
+              "Mathematical modelling and representation of systems",
+              "Feedback principle",
+              "Transfer function",
+              "Block diagrams and Signal flow graphs",
+              "State space model",
+              "Solution of state equations of LTI systems"
+            ]
+          },
+          {
+            "name": "System Analysis",
+            "description": "Covers methods for analyzing control systems.",
+            "topics": [
+              "Transient and Steady‐state analysis of linear time invariant systems",
+              "Stability analysis using Routh-Hurwitz and Nyquist criteria",
+              "Bode plots",
+              "Root loci"
+            ]
+          },
+          {
+            "name": "System Design",
+            "description": "Covers design of control systems and compensators.",
+            "topics": [
+              "Lag, Lead and Lead‐Lag compensators",
+              "P, PI and PID controllers"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Electrical and Electronic Measurements",
+        "description": "Covers measurement techniques and instruments for electrical and electronic systems.",
+        "chapters": [
+          {
+            "name": "Measurement Techniques",
+            "description": "Covers various measurement methods and instruments.",
+            "topics": [
+              "Bridges and Potentiometers",
+              "Measurement of voltage, current, power, energy and power factor",
+              "Instrument transformers",
+              "Digital voltmeters and multi-meters",
+              "Phase, Time and Frequency measurement",
+              "Oscilloscopes"
+            ]
+          },
+          {
+            "name": "Error Analysis",
+            "description": "Covers methods for analyzing measurement errors.",
+            "topics": [
+              "Error analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Analog and Digital Electronics",
+        "description": "Covers analog and digital electronic circuits and systems.",
+        "chapters": [
+          {
+            "name": "Analog Electronics",
+            "description": "Covers analog electronic circuits and devices.",
+            "topics": [
+              "Simple diode circuits: clipping, clamping, rectifiers",
+              "Amplifiers: biasing, equivalent circuit and frequency response",
+              "Oscillators and feedback amplifiers",
+              "Operational amplifiers: characteristics and applications",
+              "Single stage active filters",
+              "Active Filters: Sallen Key, Butterwoth",
+              "VCOs and timers"
+            ]
+          },
+          {
+            "name": "Digital Electronics",
+            "description": "Covers digital electronic circuits and systems.",
+            "topics": [
+              "Combinatorial and sequential logic circuits",
+              "Multiplexers",
+              "Demultiplexers",
+              "Schmitt triggers",
+              "Sample and hold circuits",
+              "A/D and D/A converters"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Power Electronics",
+        "description": "Covers power electronic devices and circuits.",
+        "chapters": [
+          {
+            "name": "Power Semiconductor Devices",
+            "description": "Covers characteristics and applications of power semiconductor devices.",
+            "topics": [
+              "Static V-I characteristics and firing/gating circuits for Thyristor, MOSFET, IGBT"
+            ]
+          },
+          {
+            "name": "Power Converters",
+            "description": "Covers various types of power converters.",
+            "topics": [
+              "DC to DC conversion: Buck, Boost and Buck-Boost Converters",
+              "Single and three-phase configuration of uncontrolled rectifiers",
+              "Voltage and Current commutated Thyristor based converters",
+              "Bidirectional ac to dc voltage source converters",
+              "Single-phase and three-phase voltage and current source inverters, sinusoidal pulse width modulation"
+            ]
+          },
+          {
+            "name": "Converter Analysis",
+            "description": "Covers analysis of power converters.",
+            "topics": [
+              "Magnitude and Phase of line current harmonics for uncontrolled and thyristor based converters",
+              "Power factor and Distortion Factor of AC to DC converters"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

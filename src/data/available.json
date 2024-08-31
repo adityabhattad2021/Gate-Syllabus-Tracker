@@ -7,6 +7,30 @@
             "url":"/branches/computer-science-and-information-technology"
         },
         {
+            "name":"Data Science and Artificial Intelligence",
+            "description":"Syllabus covering key concepts in Data Science and Artificial Intelligence.",
+            "slug":"data-science-and-artificial-intelligence",
+            "url":"/branches/data-science-and-artificial-intelligence"
+        },
+        {
+            "name": "Mechanical Engineering",
+            "description": "Curriculum for ME Mechanical Engineering.",
+            "slug": "mechanical-engineering",
+            "url": "/branches/mechanical-engineering"
+        },
+        {
+            "name": "Electronics and Communication Engineering",
+            "description": "Curriculum for EC Electronics and Communication Engineering.",
+            "slug": "electronics-and-communication-engineering",
+            "url": "/branches/electronics-and-communication-engineering"
+        },
+        {
+            "name": "Electrical Engineering",
+            "description": "Curriculum for EE Electrical Engineering.",
+            "slug": "electrical-engineering",
+            "url": "/branches/electrical-engineering"
+        },
+        {
             "name":"Comming Soon",
             "description":"We are working on it",
             "slug":"#",

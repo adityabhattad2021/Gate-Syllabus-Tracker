@@ -23,6 +23,7 @@ export default function SubjectPage({ params }: SubjectPageProps) {
     }
 
     const subjectData: Subject | undefined = typedData[branchSlug].subjects.find(subject => subject.name.toLowerCase().replace(/ /g, "-") === subjectSlug);
+    
 
     if (!subjectData) {
         redirect(`/branches/${branchSlug}`);
