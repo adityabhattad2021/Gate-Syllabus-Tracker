@@ -33,7 +33,7 @@ interface ChapterHeaderProps {
             checked={checkIsChapterChecked(index)}
             className="z-50 focus:ring-secondary focus:ring-offset-2 focus:ring-offset-background w-5 h-5 border-2 border-secondary"
           />
-          <YouTubeLink searchQuery={`${chapter.name} ${subjectName} gate 2024`} />
+          <YouTubeLink searchQuery={`${chapter.name} ${subjectName} Gate 2025`} />
           <AccordionTrigger disabled={chapter.topics.length === 0} className={cn("z-50", chapter.topics.length === 0 && "cursor-not-allowed")}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

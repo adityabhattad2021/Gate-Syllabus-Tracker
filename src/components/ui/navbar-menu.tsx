@@ -2,7 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
- 
+
 const transition = {
   type: "spring",
   mass: 0.5,
@@ -11,7 +11,7 @@ const transition = {
   restDelta: 0.001,
   restSpeed: 0.001,
 };
- 
+
 export const MenuItem = ({
   setActive,
   active,
@@ -58,7 +58,7 @@ export const MenuItem = ({
     </div>
   );
 };
- 
+
 export const Menu = ({
   setActive,
   children,
@@ -68,15 +68,22 @@ export const Menu = ({
 }) => {
   return (
     <nav
-      onMouseLeave={() => setActive(null)} // resets the state
-      className="relative rounded-full border border-slate-700 bg-gradient-to-r from-zinc-900 to-gray-900 shadow-input flex justify-center space-x-4 px-8 py-6 "
+      onMouseLeave={() => setActive(null)}
+      className="relative rounded-full border border-slate-700 bg-gradient-to-r from-zinc-900 to-gray-900 shadow-input flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4 px-4 md:px-8 py-4 md:py-6"
     >
-      {children}
+      <Link href="/">
+        <h1 className="text-white text-xl md:text-2xl font-bold">
+          SyllabiGenius
+        </h1>
+      </Link>
+      <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+        {children}
+      </div>
     </nav>
   );
 };
 
- 
+
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link

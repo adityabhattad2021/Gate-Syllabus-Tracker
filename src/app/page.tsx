@@ -32,7 +32,7 @@ export default function Home() {
             <div className="max-w-md">
               <h3 className="text-lg font-semibold mb-4">SyllabusGenius</h3>
               <p className="text-sm text-zinc-300">
-                With syllabusGenius, I aims to simplify exam preparation by providing an intuitive interface for
+                With syllabusgenius, I aims to simplify exam preparation by providing an intuitive interface for
                 managing study materials and monitoring progress for various exams starting from GATE.
               </p>
             </div>

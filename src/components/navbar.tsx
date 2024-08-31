@@ -23,19 +23,6 @@ export default function Navbar({ className }: NavbarProps) {
                         ))}
                     </div>
                 </MenuItem>
-                <MenuItem setActive={setActive} active={active} item="Feedback">
-                    <div className="flex flex-col space-y-4 text-sm bg-gray-800">
-                        <HoveredLink href="#">
-                            LinkedIn
-                        </HoveredLink>
-                        <HoveredLink href="#">
-                            X
-                        </HoveredLink>
-                        <HoveredLink href="#">
-                            Github
-                        </HoveredLink>
-                    </div>
-                </MenuItem>
             </Menu>
         </div>
     );

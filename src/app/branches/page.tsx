@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export default function AllBranchesPage() {
   return (
-    <div className="flex-1 w-full flex flex-col items-center justify-center mt-24 gap-12 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
+    <div className="flex-1 w-full flex flex-col items-center justify-center gap-12 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-24">
       <HeaderCard
         className="mx-auto w-full bg-gradient-to-r from-zinc-900  to-gray-900"
       >
