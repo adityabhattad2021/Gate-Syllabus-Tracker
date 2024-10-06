@@ -9,7 +9,7 @@ export default function mainfest():MetadataRoute.Manifest {
         scope:"/",
         start_url:"/branches",
         display:"standalone",
-        background_color:"#000000",
+        background_color:"#ffffff",
         theme_color:"#ffffff", 
         orientation:"portrait",
         categories:["education","productivity","utilities"],

@@ -22,8 +22,6 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/web-app-manifest-192x192.png",
-        width: 1200,
-        height: 630,
         alt: "SyllabiGenius | Track Your Syllabus and Prepare for Exams",
       },
     ],
@@ -36,14 +34,12 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/web-app-manifest-192x192.png",
-        width: 1200,
-        height: 630,
         alt: "SyllabiGenius | Track Your Syllabus and Prepare for Exams",
       },
     ],
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/favicon.svg",
   },
 }
 export default function RootLayout({
