@@ -4,6 +4,7 @@ SyllabiGenius aims to streamline exam preparation by providing an intuitive plat
 
 ## Features
 
+- **Progressive Web App**: Install the app on your device for a native app-like experience and offline support.
 - **Extensive List of Topics**: Easily view a comprehensive list of all topics included in the Gate 2025 syllabus, organized by subject and grouped by similarity.
 - **Direct YouTube Integration**: Instantly redirect to YouTube for relevant videos and tutorials on any subject or topic.
 - **Mark as Done**: Keep track of your progress by marking topics as complete, allowing you to focus on what’s left and ensuring thorough preparation.
