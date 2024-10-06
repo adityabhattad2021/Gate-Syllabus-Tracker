@@ -10,7 +10,7 @@ export default function mainfest():MetadataRoute.Manifest {
         start_url:"/branches",
         display:"standalone",
         background_color:"#000000",
-        theme_color:"#000000",
+        theme_color:"#ffffff", 
         orientation:"portrait",
         categories:["education","productivity","utilities"],
         icons:[

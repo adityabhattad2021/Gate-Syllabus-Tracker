@@ -56,7 +56,7 @@ export default function RootLayout({
       <body className={`${inter.className} flex flex-col min-h-screen bg-zinc-900`}>
         <RootLayoutClient>
           <Navbar />
-          <main className="flex-grow mt-24">
+          <main className="flex-grow">
             {children}
           </main>
           <Analytics />
