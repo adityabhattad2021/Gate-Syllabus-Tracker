@@ -1,35 +1,48 @@
-const ASSETS_CACHE_NAME = 'assets-cache-v1';
+const CACHE_NAME = 'syllabigenius-static-assets-v1';
 
-const ASSETS_TO_CACHE = [
-    "_next/static"
-]
 
+const STATIC_ASSETS_REGEX = /\/_next\/static\/.+\.(js|css|woff|woff2|svg|png|jpg|jpeg)$/;
 
 self.addEventListener('install', (event) => {
     console.log('Service Worker installing.');
+    event.waitUntil(self.skipWaiting());
 });
 
 self.addEventListener('activate', (event) => {
     console.log('Service Worker activating.');
+    event.waitUntil(
+        caches.keys().then((cacheNames) => {
+            return Promise.all(
+                cacheNames.map((cacheName) => {
+                    if (cacheName !== CACHE_NAME) {
+                        console.log('Deleting old cache:', cacheName);
+                        return caches.delete(cacheName);
+                    }
+                })
+            );
+        }).then(() => self.clients.claim())
+    );
 });
 
 self.addEventListener('fetch', (event) => {
-    console.log('Fetching:', event.request.url);
-    // Check if the request is for a file in the _next/static directory
-    if (event.request.url.includes('_next/static')) {
+
+    if (event.request.method === 'GET' && STATIC_ASSETS_REGEX.test(event.request.url)) {
         event.respondWith(
-            (async () => {
-                const cachedResponse = await caches.match(event.request);
-                if (cachedResponse) {
-                    return cachedResponse;
-                }
-                const fetchResponse = await fetch(event.request);
-                const cache = await caches.open(ASSETS_CACHE_NAME);
-                await cache.put(event.request, fetchResponse.clone());
-                return fetchResponse;
-            })()
+            caches.open(CACHE_NAME).then((cache) => {
+                return cache.match(event.request).then((cachedResponse) => {
+                    if (cachedResponse) {
+                        return cachedResponse;
+                    }
+
+                    return fetch(event.request).then((fetchedResponse) => {
+                        if (fetchedResponse.ok) {
+                            cache.put(event.request, fetchedResponse.clone());
+                        }
+                        return fetchedResponse;
+                    });
+                });
+            })
         );
-    } else {
-        event.respondWith(fetch(event.request));
     }
+
 });
