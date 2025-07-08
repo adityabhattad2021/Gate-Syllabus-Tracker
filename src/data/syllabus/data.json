@@ -1729,5 +1729,342 @@
         ]
       }
     ]
+  },
+  "civil-engineering": {
+    "name": "Civil Engineering",
+    "description": "Based on the syllabus for a B.Tech in Civil Engineering.",
+    "subjects": [
+      {
+        "name": "Engineering Mathematics",
+        "description": "Covers mathematical concepts fundamental to civil engineering.",
+        "chapters": [
+          {
+            "name": "Linear Algebra",
+            "description": "Focuses on matrix algebra, linear systems, eigenvalues, and eigenvectors.",
+            "topics": [
+              "Matrix algebra",
+              "Systems of linear equations",
+              "Eigen values and eigen vectors"
+            ]
+          },
+          {
+            "name": "Calculus",
+            "description": "Covers fundamental and advanced concepts of single and multivariable calculus.",
+            "topics": [
+              "Functions of single variable",
+              "Limit, continuity and differentiability",
+              "Mean value theorems, local maxima and minima",
+              "Taylor series",
+              "Evaluation of definite and indefinite integrals, application of definite integral to obtain area and volume",
+              "Partial derivatives",
+              "Total derivative",
+              "Gradient, Divergence and Curl, Vector identities",
+              "Directional derivatives",
+              "Line, Surface and Volume integrals"
+            ]
+          },
+          {
+            "name": "Ordinary Differential Equation (ODE)",
+            "description": "Introduces methods for solving ordinary differential equations.",
+            "topics": [
+              "First order (linear and non-linear) equations",
+              "Higher order linear equations with constant coefficients",
+              "Euler-Cauchy equations",
+              "Initial and boundary value problems"
+            ]
+          },
+          {
+            "name": "Partial Differential Equation (PDE)",
+            "description": "Introduces methods for solving partial differential equations relevant to engineering problems.",
+            "topics": [
+              "Fourier series",
+              "Separation of variables",
+              "Solutions of one-dimensional diffusion equation",
+              "First and second order one-dimensional wave equation and two-dimensional Laplace equation"
+            ]
+          },
+          {
+            "name": "Probability and Statistics",
+            "description": "Covers statistical methods and probability theory for data analysis.",
+            "topics": [
+              "Sampling theorems",
+              "Conditional probability",
+              "Descriptive statistics – Mean, median, mode and standard deviation",
+              "Random Variables – Discrete and Continuous, Poisson and Normal Distribution",
+              "Linear regression"
+            ]
+          },
+          {
+            "name": "Numerical Methods",
+            "description": "Focuses on numerical techniques for solving engineering problems.",
+            "topics": [
+              "Error analysis",
+              "Numerical solutions of linear and non-linear algebraic equations",
+              "Newton’s and Lagrange polynomials",
+              "Numerical differentiation",
+              "Integration by trapezoidal and Simpson’s rule",
+              "Single and multi-step methods for first order differential equations"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Structural Engineering",
+        "description": "Covers the principles of mechanics, analysis, and design of structures.",
+        "chapters": [
+          {
+            "name": "Engineering Mechanics",
+            "description": "Focuses on the fundamental principles of forces, equilibrium, and motion.",
+            "topics": [
+              "System of forces, free-body diagrams, equilibrium equations",
+              "Internal forces in structures",
+              "Frictions and its applications",
+              "Centre of mass",
+              "Free Vibrations of undamped SDOF system"
+            ]
+          },
+          {
+            "name": "Solid Mechanics",
+            "description": "Covers the behavior of solid materials under various types of loading.",
+            "topics": [
+              "Bending moment and shear force in statically determinate beams",
+              "Simple stress and strain relationships",
+              "Simple bending theory, flexural and shear stresses, shear centre",
+              "Uniform torsion, Transformation of stress",
+              "Buckling of column, combined and direct bending stresses"
+            ]
+          },
+          {
+            "name": "Structural Analysis",
+            "description": "Introduces methods for analyzing determinate and indeterminate structures.",
+            "topics": [
+              "Statically determinate and indeterminate structures by force/ energy methods",
+              "Method of superposition",
+              "Analysis of trusses, arches, beams, cables and frames",
+              "Displacement methods: Slope deflection and moment distribution methods",
+              "Influence lines",
+              "Stiffness and flexibility methods of structural analysis"
+            ]
+          },
+          {
+            "name": "Construction Materials and Management",
+            "description": "Covers properties of construction materials and principles of project management.",
+            "topics": [
+              "Construction Materials: Structural Steel – Composition, material properties and behaviour",
+              "Concrete - Constituents, mix design, short-term and long-term properties",
+              "Construction Management: Types of construction projects",
+              "Project planning and network analysis - PERT and CPM",
+              "Cost estimation"
+            ]
+          },
+          {
+            "name": "Concrete Structures",
+            "description": "Focuses on the design principles of reinforced and prestressed concrete structures.",
+            "topics": [
+              "Working stress and Limit state design concepts",
+              "Design of beams, slabs, columns",
+              "Bond and development length",
+              "Prestressed concrete beams"
+            ]
+          },
+          {
+            "name": "Steel Structures",
+            "description": "Focuses on the design principles of steel structural elements and connections.",
+            "topics": [
+              "Working stress and Limit state design concepts",
+              "Design of tension and compression members, beams and beam- columns, column bases",
+              "Connections - simple and eccentric, beam-column connections, plate girders and trusses",
+              "Concept of plastic analysis - beams and frames"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Geotechnical Engineering",
+        "description": "Focuses on the behavior of earth materials and the design of foundations and earth structures.",
+        "chapters": [
+          {
+            "name": "Soil Mechanics",
+            "description": "Covers the physical and mechanical properties of soil and its behavior.",
+            "topics": [
+              "Three-phase system and phase relationships, index properties",
+              "Unified and Indian standard soil classification system",
+              "Permeability - one dimensional flow, Seepage through soils – two - dimensional flow, flow nets, uplift pressure, piping, capillarity, seepage force",
+              "Principle of effective stress and quicksand condition",
+              "Compaction of soils",
+              "One- dimensional consolidation, time rate of consolidation",
+              "Shear Strength, Mohr’s circle, effective and total shear strength parameters, Stress-Strain characteristics of clays and sand",
+              "Stress paths"
+            ]
+          },
+          {
+            "name": "Foundation Engineering",
+            "description": "Covers the design and analysis of shallow and deep foundations.",
+            "topics": [
+              "Sub-surface investigations - Drilling bore holes, sampling, plate load test, standard penetration and cone penetration tests",
+              "Earth pressure theories - Rankine and Coulomb",
+              "Stability of slopes – Finite and infinite slopes, Bishop’s method",
+              "Stress distribution in soils – Boussinesq’s theory",
+              "Pressure bulbs, Shallow foundations – Terzaghi’s and Meyerhoff’s bearing capacity theories, effect of water table",
+              "Combined footing and raft foundation",
+              "Contact pressure",
+              "Settlement analysis in sands and clays",
+              "Deep foundations – dynamic and static formulae, Axial load capacity of piles in sands and clays, pile load test, pile under lateral loading, pile group efficiency, negative skin friction"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Water Resources Engineering",
+        "description": "Deals with the design and management of water-related systems.",
+        "chapters": [
+          {
+            "name": "Fluid Mechanics",
+            "description": "Covers the fundamental principles of fluid statics and dynamics.",
+            "topics": [
+              "Properties of fluids, fluid statics",
+              "Continuity, momentum and energy equations and their applications",
+              "Potential flow, Laminar and turbulent flow",
+              "Flow in pipes, pipe networks",
+              "Concept of boundary layer and its growth",
+              "Concept of lift and drag"
+            ]
+          },
+          {
+            "name": "Hydraulics",
+            "description": "Focuses on the application of fluid mechanics to open channels and pipes.",
+            "topics": [
+              "Forces on immersed bodies",
+              "Flow measurement in channels and pipes",
+              "Dimensional analysis and hydraulic similitude",
+              "Channel Hydraulics - Energy-depth relationships, specific energy, critical flow, hydraulic jump, uniform flow, gradually varied flow and water surface profiles"
+            ]
+          },
+          {
+            "name": "Hydrology",
+            "description": "Covers the study of water movement, distribution, and quality on Earth.",
+            "topics": [
+              "Hydrologic cycle, precipitation, evaporation, evapo-transpiration, watershed, infiltration, unit hydrographs, hydrograph analysis, reservoir capacity, flood estimation and routing, surface run-off models, ground water hydrology - steady state well hydraulics and aquifers",
+              "Application of Darcy’s Law"
+            ]
+          },
+          {
+            "name": "Irrigation",
+            "description": "Introduces the principles and design of irrigation systems.",
+            "topics": [
+              "Types of irrigation systems and methods",
+              "Crop water requirements - Duty, delta, evapo-transpiration",
+              "Gravity Dams and Spillways",
+              "Lined and unlined canals, Design of weirs on permeable foundation",
+              "Cross drainage structures"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Environmental Engineering",
+        "description": "Focuses on protecting the environment through engineering solutions for water, air, and waste management.",
+        "chapters": [
+          {
+            "name": "Water and Waste Water Quality and Treatment",
+            "description": "Covers the quality standards and treatment processes for water and wastewater.",
+            "topics": [
+              "Basics of water quality standards – Physical, chemical and biological parameters",
+              "Water quality index",
+              "Unit processes and operations",
+              "Water requirement",
+              "Water distribution system",
+              "Drinking water treatment",
+              "Sewerage system design, quantity of domestic wastewater, primary and secondary treatment",
+              "Effluent discharge standards",
+              "Sludge disposal",
+              "Reuse of treated sewage for different applications"
+            ]
+          },
+          {
+            "name": "Air Pollution",
+            "description": "Introduces the sources, impacts, and control of air pollution.",
+            "topics": [
+              "Types of pollutants, their sources and impacts, air pollution control",
+              "Air quality standards",
+              "Air quality Index and limits"
+            ]
+          },
+          {
+            "name": "Municipal Solid Wastes",
+            "description": "Covers the management of municipal solid wastes from collection to disposal.",
+            "topics": [
+              "Characteristics, generation, collection and transportation of solid wastes",
+              "Engineered systems for solid waste management (reuse/ recycle, energy recovery, treatment and disposal)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Transportation Engineering",
+        "description": "Involves the planning, design, operation, and maintenance of transportation systems.",
+        "chapters": [
+          {
+            "name": "Transportation Infrastructure",
+            "description": "Covers the geometric design of highways, railways, and airport infrastructure.",
+            "topics": [
+              "Geometric design of highways - cross-sectional elements, sight distances, horizontal and vertical alignments",
+              "Geometric design of railway Track – Speed and Cant",
+              "Concept of airport runway length, calculations and corrections; taxiway and exit taxiway design"
+            ]
+          },
+          {
+            "name": "Highway Pavements",
+            "description": "Focuses on the materials and design of flexible and rigid highway pavements.",
+            "topics": [
+              "Highway materials - desirable properties and tests",
+              "Desirable properties of bituminous paving mixes",
+              "Design factors for flexible and rigid pavements",
+              "Design of flexible and rigid pavement using IRC codes"
+            ]
+          },
+          {
+            "name": "Traffic Engineering",
+            "description": "Covers traffic flow characteristics, studies, and control.",
+            "topics": [
+              "Traffic studies on flow and speed, peak hour factor, accident study, statistical analysis of traffic data",
+              "Microscopic and macroscopic parameters of traffic flow, fundamental relationships",
+              "Traffic signs",
+              "Signal design by Webster’s method",
+              "Types of intersections",
+              "Highway capacity"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Geomatics Engineering",
+        "description": "Covers the science of geographically referencing information through surveying, mapping, and remote sensing.",
+        "chapters": [
+          {
+            "name": "Surveying Principles and Methods",
+            "description": "Introduces the fundamental principles and techniques of land surveying.",
+            "topics": [
+              "Principles of surveying",
+              "Errors and their adjustment",
+              "Maps - scale, coordinate system",
+              "Distance and angle measurement - Levelling and trigonometric levelling",
+              "Traversing and triangulation survey",
+              "Total station",
+              "Horizontal and vertical curves"
+            ]
+          },
+          {
+            "name": "Photogrammetry and Remote Sensing",
+            "description": "Covers the basics of obtaining information about objects from a distance.",
+            "topics": [
+              "Photogrammetry - Scale, flying height",
+              "Basics of remote sensing and GIS"
+            ]
+          }
+        ]
+      }
+    ]
   }
+
 }

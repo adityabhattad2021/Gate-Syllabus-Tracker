@@ -31,7 +31,13 @@
             "url": "/branches/electrical-engineering"
         },
         {
-            "name":"Comming Soon",
+            "name":"Civil Engineering",
+            "description":"Curriculum for CE Civil Engineering.",
+            "slug":"civil-engineering",
+            "url":"/branches/civil-engineering"
+        },
+        {
+            "name":"Coming Soon",
             "description":"We are working on it",
             "slug":"#",
             "url":"#"
